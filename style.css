@@ -1,0 +1,707 @@
+body {
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* .main { */
+    /* width: 100%; */
+    /* max-width: 1366px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+/* } */
+
+.header-inner {
+    max-width: 1244px;
+    height: 88px;
+}
+
+.first-view-content .header-site-menu {
+    box-shadow: 0px 10px 20px #0000000D;
+    border-radius: 16px;
+    opacity: 1;
+    margin: 14px 90px 14px 32px;
+    height: 88px;
+    width: 1244px;
+    /* transform: translate(0,600px); */
+    position: absolute;
+    top: 634px;
+    z-index: 3;
+}
+
+.header-site-menu ul {
+
+    text-align: left;
+    font: normal normal 900 14px/90px Noto Sans CJK JP;
+    color: #000000;
+    opacity: 1;
+    display: flex;
+}
+
+.header-site-menu span {
+    margin: 0 12px 0 12px;
+}
+
+.header-site-menu img {
+    margin: 24.5px 222.87px 24.21px 40.25px;
+    max-width: 100%;
+}
+
+.border-radius-y  {
+    width: 116px;
+    height: 116px;
+    background: transparent linear-gradient(135deg, #FFF1A2 0%, #FFD800 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    /* transform: translate(1218px); */
+    position: relative;
+    left: 1218px;
+    top: 634px;
+    z-index: 4;
+}
+
+.border-radius-y img {
+    position: absolute;
+    top: 36.9px;
+    right: 44px;
+}
+
+.border-radius-y span {
+    text-align: center;
+    font: normal normal bold 12px Noto Sans CJK JP;
+    color: #000000;
+    position: absolute;
+    top: 61.1px;
+    right: 22px;
+}
+
+.first-view-content {
+    position: relative;
+    width: 100%;
+    height: 768px;
+}
+
+
+.first-view-content .ttl-content {
+    position: absolute;
+    top: 174.7px;
+    left: 104.38px;
+    z-index: 2;
+
+}
+.first-view-content .ttl-content .button-y-content {
+    background: transparent linear-gradient(101deg, #FFF1A2 0%, #FFD800 100%) 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    display: flex;
+    width: 328px;
+    height: 64px;
+    position: relative;
+}
+
+.first-view-content .ttl-content .button-y-content span {
+    text-align: left;
+    font: normal normal 900 16px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    position: absolute;
+    top: 19px;
+    left: 40px;
+}
+
+.first-view-content .ttl-content .button-y-content img {
+    position: absolute;
+    left: 268.38px;
+    top: 23.84px;
+}
+
+.first-view-content .ttl-content  h3 {
+    text-align: left;
+    font: normal normal 900 24px/90px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.first-view-content .main-img-content {
+    position: absolute;
+    left:283px;
+    z-index: 1;
+    width: 1083px;
+    height: 700px;
+}
+
+.factoring-inner {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.factoring-explain {
+    margin-left: 168px;
+    margin-right: 48px;
+    width: 516px;
+}
+
+.factoring-explain h4 {
+    text-align: left;
+    font: normal normal 800 20px/90px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    opacity: 1;
+}
+
+
+.factoring-explain h2 {
+    text-align: left;
+    font: normal normal 900 40px/90px Noto Sans CJK JP;
+    letter-spacing: 3.2px;
+    color: #454545;
+    opacity: 1;
+
+}
+.factoring-explain p {
+    width: 516px;
+    text-align: left;
+    font: normal normal 500 16px/32px Noto Sans CJK JP;
+    letter-spacing: 0.64px;
+    color: #454545;
+    opacity: 1;
+    line-height: 2em;
+}
+
+.guide-faq {
+    display: flex;
+    margin-bottom: 96px;
+}
+
+.guide-faq .guide {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px 0px 0px 16px;
+    opacity: 1;
+    width: 540px;
+    height: 154px;
+    box-shadow: 0px 10px 20px #0000000D;
+    margin-left: 143px;
+}
+
+.guide-faq .guide h3 {
+    text-align: left;
+    font: normal normal 900 24px/90px Noto Sans CJK JP;
+    letter-spacing: 1.92px;
+    color: #454545;
+    opacity: 1;
+}
+
+
+
+
+.guide-faq .faq {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 16px 16px 0px;
+    opacity: 1;
+    width: 540px;
+    height: 154px;
+    box-shadow: 0px 10px 20px #0000000D;
+}
+
+
+.relief {
+    background-image: url(img/img-membar.png);
+    width: 1366px;
+    height: 528px;
+    position: relative;
+    margin-bottom: 1105px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.details {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0000000D;
+    border-radius: 16px;
+    opacity: 1;
+    position: absolute;
+    top: 392px;
+    left: 143px;
+    width: 1080px;
+    height: 1137px;
+    margin-bottom: 104px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.details h4 {
+    text-align: center;
+    font: normal normal 800 20px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    opacity: 1;
+    margin-top: 88px;
+    margin-bottom: 8px;
+}
+
+.details h2 {
+    text-align: center;
+    font: normal normal 900 40px Noto Sans CJK JP;
+    letter-spacing: 3.2px;
+    color: #454545;
+    opacity: 1;
+    margin-bottom: 32px;
+}
+
+.details p {
+    text-align: center;
+    font: normal normal 500 16px Noto Sans CJK JP;
+    letter-spacing: 0.64px;
+    color: #454545;
+    opacity: 1;
+    margin-bottom: 52px;
+}
+
+.details-cmn {
+    width: 876px;
+    height: 81px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1;
+    margin: 28px 96px 28px 108px;
+    position: relative;
+    z-index: 1;
+}
+
+.details-cmn h3 {
+    text-align: left;
+    font: normal normal 900 22px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #454545;
+    opacity: 1;
+    margin: 24px 60px 24px 48px;
+    position: absolute;
+}
+
+.details .num-01 {
+    width: 48px;
+    height: 48px;
+    background: transparent linear-gradient(135deg, #1D85FF 0%, #005FCE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    left: 96px;
+    margin: -12px 0 0 0;
+    z-index: 2;
+}
+
+
+.details .num-01 span {
+    position: absolute;
+    margin: 14px;
+    font: normal normal bold 18px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.details .num-02 {
+    width: 48px;
+    height: 48px;
+    background: transparent linear-gradient(135deg, #85D6EA 0%, #00A6CE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    position: absolute;
+    left: 96px;
+    margin: -12px 0 0 0;
+    z-index: 2;
+}
+
+
+.details .num-02 span {
+    position: absolute;
+    margin: 14px;
+    font: normal normal bold 18px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.details .button {
+    background: transparent linear-gradient(101deg, #1D85FF 0%, #005FCE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    width: 328px;
+    height: 64px;
+    margin: 72px 376px 88px 376px;
+    align-items: center;
+    position: relative;
+}
+
+.details .button .button-b-text {
+    text-align: left;
+    font: normal normal 900 16px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 19px 148.38px 21px 40px;
+    position: absolute;
+}
+.details .button .white-arrow {
+    position: relative;
+    margin: 23.84px 40px 25.84px 268.38px;
+}
+
+.case-study {
+    height: 700px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    position: relative;
+}
+.case-study .case-ttl {
+    width: 134px;
+    text-align: center;
+    font: normal normal 800 20px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    position: absolute;
+    top: 88px;
+    left: 616px;
+}
+.case-study h2 {
+    font: normal normal 900 40px Noto Sans CJK JP;
+    letter-spacing: 3.2px;
+    color: #454545;
+    position: absolute;
+    top: 120px;
+    left: 577px;
+}
+
+.swiper {
+    width: 974.19px;
+    max-width: 100%;
+    height: 345px;
+    position: absolute;
+    top: 227px;
+}
+.swiper-slide {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0000000D;
+    border-radius: 16px;
+    width: 704px;
+    height: 249px; 
+    margin-bottom: 72px;
+    z-index: 1;
+}
+.b-03 {
+    position: absolute;
+    top: 548px;
+    z-index: 2;
+}
+
+
+.swiper-slide h3{
+    text-align: left;
+    font: normal normal 900 24px Noto Sans CJK JP;
+    letter-spacing: 1.92px;
+    color: #454545;
+    margin: 48px 347px 8px 48px;
+}
+.swiper-slide h4 {
+    text-align: left;
+    font: normal normal 900 20px Noto Sans CJK JP;
+    letter-spacing: 1.6px;
+    color: #005FCE;
+    margin: 0 530px 24px 48px;
+}
+.swiper-slide p {
+    text-align: left;
+    font: normal normal 500 16px Noto Sans CJK JP;
+    letter-spacing: 0.64px;
+    color: #454545;
+    width: 608px;
+    height: 56px;
+    margin: 0px 48px 48px 48px;
+}
+
+
+
+.column h4 {
+    max-width: 1366px;
+    margin-top: 104px;
+    text-align: center;
+    font: normal normal 800 20px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    opacity: 1;
+}
+
+.column h2 {
+    max-width: 1366px;
+    width: 100%;
+    text-align: center;
+    font: normal normal 900 40px Noto Sans CJK JP;
+    letter-spacing: 3.2px;
+    color: #454545;
+    margin-bottom: 40px;
+}
+.b-b {
+    border-bottom: solid 1px #E2E2E2;
+}
+.column-inner .column-box {
+    max-width: 1080px;
+    height: 156px;
+    margin-left: 143px;
+    width: 1080px;
+    position: relative;
+
+}
+.column-box img{
+    position: absolute;
+    margin: 32px 31.76px 32px 32px;
+}
+.column-box h3 {
+    text-align: left;
+    font: normal normal 900 22px Noto Sans CJK JP;
+    letter-spacing: 1.76px;
+    color: #005FCE;
+    position: absolute;
+    top: 45px;
+    left: 239px;
+}
+
+.column-box p {
+    text-align: left;
+    font: normal normal 500 16px Noto Sans CJK JP;
+    letter-spacing: 0.64px;
+    color: #454545;
+    position: absolute;
+    top: 86px;
+    left: 239px;
+}
+
+.column-box .gray-arrow {
+    position: absolute;
+    left: 1028.38px;
+    top: 70.84px;
+}
+
+
+.column-inner .button {
+    margin-top: 32px;
+    margin-bottom: 104px;
+    background: transparent linear-gradient(101deg, #1D85FF 0%, #005FCE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    width: 328px;
+    height: 64px;
+    position: relative;
+    margin-left: 519px;
+} 
+
+.column-inner .button span {
+    position: absolute;
+    top: 19px;
+    left: 40px;
+    text-align: left;
+    font: normal normal 900 16px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+
+.column-inner .button  .white-arrow {
+    position: absolute;
+    left: 268.38px;
+    top: 23.84px;
+}
+
+
+.information {
+    height: 702px;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    position: relative;
+}
+
+
+
+.information .information-inner {
+    height: 510px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0000000D;
+    border-radius: 16px;
+    margin: 96px 25% 96px 25%;
+    align-items: center;
+    position: absolute;
+}
+
+
+
+.information-inner h5 {
+    text-align: center;
+    font: normal normal 800 14px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    margin-top: 56px;
+}
+
+
+.information-inner h3 {
+    text-align: center;
+    font: normal normal 900 32px Noto Sans CJK JP;
+    letter-spacing: 2.56px;
+    color: #454545;
+    margin-top: 4px;
+    margin-bottom: 24px;
+
+}
+
+.information-box {
+    width: 798px;
+    height: 94px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: relative;
+    margin: 0 48px;
+}
+.information-box h4 {
+    text-align: left;
+    font: normal normal bold 16px Noto Sans CJK JP;
+    letter-spacing: 0.64px;
+    color: #454545;
+    position: absolute;
+    top: 24px;
+    left: 16px;
+
+}
+
+.information-box p {
+    text-align: left;
+    font: normal normal bold 12px Montserrat;
+    letter-spacing: 0px;
+    color: #A8A8A8;
+    position: absolute;
+    top: 54px;
+    left: 16px;
+}
+
+.information-box img {
+    position: absolute;
+    top: 39.84px;
+    left: 746.38px;
+}
+.information-nav {
+    margin-left: 730.38px;
+}
+.information-nav span {
+    margin-top: 7px;
+    text-align: left;
+    font: normal normal 900 16px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #005FCE;
+
+}
+.information-nav .blue-arrow {
+    margin-bottom: 4.2px;
+    margin-left: 16px;
+}
+
+.inquiry {
+    height: 403px;
+    background: transparent linear-gradient(106deg, #1D85FF 0%, #005FCE 100%) 0% 0% no-repeat padding-box;
+}
+
+.inquiry h4 {
+    font: normal normal bold 36px Toppan Bunkyu Midashi Gothic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-top: 96.9px;
+    text-align: center;
+}
+
+.inquiry .t-m {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.t-m-inner {
+    margin-right: 56px;
+    margin-top: 48.4px;
+}
+
+.t-m-inner .tel {
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+
+.t-m-inner span {
+    text-align: left;
+    font: normal normal bold 42px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.t-m-inner p {
+    text-align: center;
+    font: normal normal 500 12px Noto Sans CJK JP;
+    letter-spacing: 0.48px;
+    color: #FFFFFF;
+    margin-top: 4px;
+}
+
+.inquiry-mail {
+    width: 328px;
+    height: 64px;
+    background: #FFD800 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    position: relative;
+    margin-top: 48.4px;
+}
+
+.inquiry-mail img {
+    position: absolute;
+    top: 21.79px;
+    left: 55px;
+}
+
+.inquiry-mail span {
+    position: absolute;
+    top: 19px;
+    left: 97px;
+    font: normal normal 900 16px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #454545;
+}
+
+
+
+/* 前へ次への矢印カスタマイズ */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  bottom: 0;
+  content: "";
+  height: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+/* 前への矢印カスタマイズ */
+.swiper-button-prev:after {
+  border-bottom: 20px solid transparent;
+  border-right: 30px solid #ff4500;
+  border-top: 20px solid transparent;
+}
+/* 次への矢印カスタマイズ */
+.swiper-button-next:after {
+  border-bottom: 20px solid transparent;
+  border-left: 30px solid #ff4500;
+  border-top: 20px solid transparent;
+}
+
+
+/* 画像サイズ調整 */
+.swiper-slide img {
+  height: auto;
+  width: 100%;
+}

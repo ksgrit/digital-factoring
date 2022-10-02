@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="116" viewBox="0 0 116 116">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff1a2"/>
+      <stop offset="1" stop-color="#ffd800"/>
+    </linearGradient>
+  </defs>
+  <g id="btn-contact" transform="translate(-1226 -619)">
+    <circle id="楕円形_3" data-name="楕円形 3" cx="58" cy="58" r="58" transform="translate(1226 619)" fill="url(#linear-gradient)"/>
+    <path id="ico-mail-blk" d="M31.949,108.588a2.333,2.333,0,0,0,2.333,2.333H57.616a2.333,2.333,0,0,0,2.333-2.333V92.838a2.333,2.333,0,0,0-2.333-2.333H34.282a2.333,2.333,0,0,0-2.333,2.333v15.75Zm8.586-7.857L35.2,95.358a1.134,1.134,0,0,1,1.6-1.6l8.517,8.528a.9.9,0,0,0,1.249,0L55.1,93.754a1.134,1.134,0,0,1,1.6,1.6l-5.343,5.373,5.343,5.337a1.134,1.134,0,0,1-1.6,1.6l-5.338-5.332s-1.668,1.7-1.971,2a2.635,2.635,0,0,1-1.838.747,2.6,2.6,0,0,1-1.849-.764c-.309-.3-1.966-1.983-1.966-1.983L36.8,107.672a1.134,1.134,0,0,1-1.6-1.6Z" transform="translate(1238.051 565.391)" fill-rule="evenodd"/>
+    <text id="お問い合わせ" transform="translate(1284 694.104)" font-size="12" font-family="NotoSansCJKjp-Bold, Noto Sans CJK JP" font-weight="700"><tspan x="-36" y="0">お問い合わせ</tspan></text>
+  </g>
+</svg>
