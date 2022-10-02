@@ -137,10 +137,10 @@ body {
     display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
+    justify-content: center;
 }
 
 .factoring-explain {
-    margin-left: 168px;
     margin-right: 48px;
     width: 516px;
 }
@@ -170,11 +170,31 @@ body {
     color: #454545;
     opacity: 1;
     line-height: 2em;
+    margin-bottom: 48px;
 }
+
+.factoring-explain .button {
+    background: transparent linear-gradient(101deg, #1D85FF 0%, #005FCE 100%) 0% 0% no-repeat padding-box;
+    border-radius: 32px;
+    opacity: 1;
+    width: 328px;
+    height: 64px;
+    align-items: center;
+}
+.factoring-explain .button .button-b-text {
+    text-align: left;
+    font: normal normal 900 16px Noto Sans CJK JP;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 19px 116.38px 21px 40px;
+}
+
+
 
 .guide-faq {
     display: flex;
     margin-bottom: 96px;
+    justify-content: center;
 }
 
 .guide-faq .guide {
@@ -184,18 +204,35 @@ body {
     width: 540px;
     height: 154px;
     box-shadow: 0px 10px 20px #0000000D;
-    margin-left: 143px;
+    position: relative;
 }
 
 .guide-faq .guide h3 {
     text-align: left;
-    font: normal normal 900 24px/90px Noto Sans CJK JP;
+    font: normal normal 900 24px Noto Sans CJK JP;
     letter-spacing: 1.92px;
     color: #454545;
-    opacity: 1;
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+
+.guide-faq .guide p {
+    text-align: left;
+    font: normal normal 800 14px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    position: absolute;
+    top: 88px;
+    left: 50px;
 }
 
 
+.guide-faq .guide img {
+    position: absolute;
+    top: 70px;
+    left: 471.38px;
+}
 
 
 .guide-faq .faq {
@@ -205,8 +242,33 @@ body {
     width: 540px;
     height: 154px;
     box-shadow: 0px 10px 20px #0000000D;
+    position: relative;
 }
 
+.guide-faq .faq h3 {
+    text-align: left;
+    font: normal normal 900 24px Noto Sans CJK JP;
+    letter-spacing: 1.92px;
+    color: #454545;
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+.guide-faq .faq p {
+    text-align: left;
+    font: normal normal 800 14px Montserrat;
+    letter-spacing: 0px;
+    color: #005FCE;
+    position: absolute;
+    top: 88px;
+    left: 50px;
+}
+
+.guide-faq .faq img {
+    position: absolute;
+    top: 70px;
+    left: 471.38px;
+} 
 
 .relief {
     background-image: url(img/img-membar.png);
@@ -364,17 +426,15 @@ body {
     font: normal normal 800 20px Montserrat;
     letter-spacing: 0px;
     color: #005FCE;
-    position: absolute;
-    top: 88px;
-    left: 616px;
+    margin: 0 auto 0 auto;
+    padding-top: 88px;
 }
 .case-study h2 {
     font: normal normal 900 40px Noto Sans CJK JP;
     letter-spacing: 3.2px;
     color: #454545;
-    position: absolute;
-    top: 120px;
-    left: 577px;
+    margin: 8px auto 0 auto;
+    text-align: center;
 }
 
 .swiper {
@@ -382,7 +442,7 @@ body {
     max-width: 100%;
     height: 345px;
     position: absolute;
-    top: 227px;
+    top: 48px;
 }
 .swiper-slide {
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -429,6 +489,8 @@ body {
 .column h4 {
     max-width: 1366px;
     margin-top: 104px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font: normal normal 800 20px Montserrat;
     letter-spacing: 0px;
@@ -443,7 +505,7 @@ body {
     font: normal normal 900 40px Noto Sans CJK JP;
     letter-spacing: 3.2px;
     color: #454545;
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
 }
 .b-b {
     border-bottom: solid 1px #E2E2E2;
@@ -451,7 +513,7 @@ body {
 .column-inner .column-box {
     max-width: 1080px;
     height: 156px;
-    margin-left: 143px;
+    margin: 0 auto;
     width: 1080px;
     position: relative;
 
@@ -488,15 +550,13 @@ body {
 
 
 .column-inner .button {
-    margin-top: 32px;
-    margin-bottom: 104px;
     background: transparent linear-gradient(101deg, #1D85FF 0%, #005FCE 100%) 0% 0% no-repeat padding-box;
     border-radius: 32px;
     opacity: 1;
     width: 328px;
     height: 64px;
     position: relative;
-    margin-left: 519px;
+    margin: 32px auto 104px auto;
 } 
 
 .column-inner .button span {
@@ -674,6 +734,52 @@ body {
 }
 
 
+.footer-inner {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.footer-inner .cmn-01 {
+    margin-right: 199px;
+}
+
+.footer-inner .cmn-02 {
+    margin-right: 48px;
+    width: 234px;
+}
+
+.footer-cmn img {
+    margin-bottom: 24.64px;
+}
+
+
+.footer-cmn .location {
+    margin-bottom: 25px;
+    text-align: left;
+    font: normal normal 500 12px Noto Sans CJK JP;
+    letter-spacing: 0.48px;
+    color: #454545;
+}
+
+.footer-cmn .copyright {
+    text-align: left;
+    font: normal normal 500 12px Noto Sans CJK JP;
+    letter-spacing: 0.48px;
+    color: #454545;
+}
+
+
+.footer-cmn ul li {
+    text-align: left;
+font: normal normal 500 14px Noto Sans CJK JP;
+letter-spacing: 0.56px;
+color: #454545;
+margin-bottom: 16px;
+} 
+
+
+
 
 /* 前へ次への矢印カスタマイズ */
 .swiper-button-prev:after,
@@ -685,18 +791,6 @@ body {
   position: absolute;
   top: 0;
   width: 0;
-}
-/* 前への矢印カスタマイズ */
-.swiper-button-prev:after {
-  border-bottom: 20px solid transparent;
-  border-right: 30px solid #ff4500;
-  border-top: 20px solid transparent;
-}
-/* 次への矢印カスタマイズ */
-.swiper-button-next:after {
-  border-bottom: 20px solid transparent;
-  border-left: 30px solid #ff4500;
-  border-top: 20px solid transparent;
 }
 
 
